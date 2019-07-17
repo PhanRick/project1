@@ -1,0 +1,157 @@
+/*when switching media mode*/
+@media only screen and (max-width: 375px) {
+	header{
+    display: inline-block;
+    left: 0px;
+    width: 100%;
+    height: 340px;
+	}
+
+
+
+/*position of nav image*/
+nav img{
+    left: 500px;
+}
+/*Psotion for the button in the nav*/
+nav #Selection {
+    left: 190px;
+}
+
+#Selection .food {
+left: 220px;
+}
+
+#Selection .myself {
+    left: 219px;
+}
+
+/*Position for the header title*/
+header p {
+    font-family: 'Germania One', cursive;
+    position: relative;
+    text-align: center;
+    top: 85px;
+    font-size: 120px;
+    color: white;
+    position: relative;
+    right: 20px;
+}
+
+/*Main container for the Section*/
+/*Section one*/
+#main_container #section_one {
+	width: 60%;
+    left: 15px;
+}
+
+/*image for Section one*/
+.one_pic {
+	left: 1000px;
+    bottom: 386px;
+    width: 20%;
+    height: 330px;
+    margin: 74px  1px;
+}
+
+/*Section twoo*/
+#main_container #section_two {
+	width: 60%;
+    left: 411px;
+    bottom: 320px;
+}
+/*Section two image*/
+.two_pic{
+   left: 16px;
+    bottom: 710px;
+    width: 25%;
+    height: 300px; 
+    margin: 55px 1px;
+}
+
+/*Section three*/
+#main_container #section_three {
+    width: 60%;
+    right: 37px;
+    bottom: 478px;
+    margin: 0px 0px 0px 50px;
+}
+/*Section three image*/
+.three_pic {
+    left: 950px;
+    bottom: 837px;
+    width: 24%;
+    height: 400px;
+}
+
+/*Layout for Contact information*/
+#contact_layout {
+    width: 95%;
+    height: 400px;
+    left: 30px;
+}
+
+/*Positon and width of the contact information*/
+#Contact_information {
+    left: 588px;
+    width: 736px;
+    bottom: 423px;
+}
+
+/*position contact phone*/
+.contact_phone{
+    top: -11px;
+    left: 270px;
+
+}
+
+/*position contact mail*/
+.contact_mail{
+    top: -24px;
+    left: 253px;
+
+}
+
+
+/*position contact address*/
+.contact_Hidden {
+    left: 245px;
+    top: -33px;
+
+}
+
+/*position image of Facebook and twitter*/
+#Contact_information img {
+    padding: 52px 5px 40px 5px;
+    left: 238px;
+    bottom: 63px;
+}
+
+/*position and width of the input*/
+input{
+    width: 551px;
+    left: 3px;
+}
+
+/*width of the phone input*/  
+#phone{
+    width: 250px;
+}
+
+/*width of the email input*/
+#email {
+    width: 270px;
+    left: 20px;
+}
+
+/*width of the message input*/
+#message {
+    width: 539px;
+}
+
+/*position and width of the button submit*/
+#formSumit{
+    left: 174px;
+    width: 30%;
+}
+}
